@@ -1,0 +1,16 @@
+#Port 22
+#AddressFamily any
+ListenAddress 0.0.0.0
+#ListenAddress ::
+
+PermitRootLogin yes
+
+AuthorizedKeysFile	.ssh/authorized_keys
+
+AllowTcpForwarding no
+GatewayPorts no
+X11Forwarding no
+
+#UseDNS no
+
+Subsystem	sftp	/usr/lib/ssh/sftp-server
