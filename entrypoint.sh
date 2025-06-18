@@ -1,3 +1,6 @@
+# 启动 sshd
+/usr/sbin/sshd
+
 # 启动 nginx
 nginx
 

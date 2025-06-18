@@ -28,4 +28,5 @@ docker-php-ext-install pdo_mysql
 
 # ssh
 apk add openssh-server
+/usr/bin/ssh-keygan -A
 echo 'root:root' | chpasswd
