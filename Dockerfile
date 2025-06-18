@@ -1,6 +1,6 @@
 FROM php:7.4-fpm-alpine
 
-EXPOSE 80
+EXPOSE 80 22
 
 COPY install.sh /
 RUN sh /install.sh
